@@ -1,0 +1,118 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,800|Lora:400italic|Playfair+Display:700);
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'Redneedleicons';
+	src:url('../fonts/Redneedleicons/Redneedleicons.eot');
+	src:url('../fonts/Redneedleicons/Redneedleicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Redneedleicons/Redneedleicons.woff') format('woff'),
+		url('../fonts/Redneedleicons/Redneedleicons.ttf') format('truetype'),
+		url('../fonts/Redneedleicons/Redneedleicons.svg#Redneedleicons') format('svg');
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { display: table; content: ''; }
+.clearfix:after { clear: both; }
+
+
+body {
+	background: #fff;
+	color: #69606b;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 1.5;
+	font-family: 'Raleway', Arial, sans-serif;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	overflow-x: hidden;
+}
+
+.demo-1 {
+	background: #eaeaea;
+}
+
+
+.title1 > section {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.color-1 {
+	background: #191919;
+}
+.main{
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.alignment{
+vertical-align:top;
+text-align:center;
+}
+
+
+/*AboutUs*/
+
+.about{
+    text-align:center;
+    margin-left: 10%;
+}
+
+
+.about h3{
+    margin-top:-50px;
+}
+
+.pic {
+    display:block;
+    font-size:0px;
+    background:#fff;
+    height:300px;
+    width:300px;
+}
+
+table a{
+    text-decoration:none;
+}
+
+.about a img{
+    max-height: 40px;
+    max-width: 40px;
+}
+
+.redneedle a img{
+    max-height: 55px;
+    max-width: 55px;
+    margin-top: 2%;
+}
+
+.about p{
+    margin-left:10px;
+    margin-right:10px;
+    max-width:340px;
+    margin-bottom:0px;
+    font-style:italic;
+    color:#191919;
+}
+
+.redneedle{
+    text-align:center;
+}
+
+.redneedle td{
+    background-color:#fff;
+}
+.redneedle p{
+    font-size:1.15em;
+    max-width:380px;
+    margin-left:20px;
+    margin-right:20px;
+    font-style:italic;
+    background-color:#fff;
+}
+
+.big{
+    margin: 4% auto;
+    width:100%;
+}
